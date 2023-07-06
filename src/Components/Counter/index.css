@@ -1,0 +1,29 @@
+.btn__counter {
+  padding: 10px;
+  font-size: 28px;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: rgb(95, 95, 95) 2px solid;
+}
+
+
+
+.btn__increment {
+  background-color: greenyellow;
+  
+}
+
+.btn__decrement {
+  background-color: mediumvioletred;
+
+}
+
+.btn__increment,
+.btn__decrement {
+  border: none;
+  color: white;
+}
