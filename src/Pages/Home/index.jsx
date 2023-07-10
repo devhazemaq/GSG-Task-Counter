@@ -11,7 +11,7 @@ export default class Home extends Component {
   handleCounterChange = (value) => {
     this.setState((prevState) => ({
       total: prevState.total + value,
-    }));
+    })); 
   };
 
   render() {
