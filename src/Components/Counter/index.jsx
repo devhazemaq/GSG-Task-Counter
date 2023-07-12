@@ -17,8 +17,9 @@ export default class Counter extends Component {
 
         </div>
         
-        
+      
       </div>
+      
     )
   }
 }

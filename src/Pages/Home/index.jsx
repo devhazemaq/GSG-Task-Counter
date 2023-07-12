@@ -53,6 +53,7 @@ export default class Home extends Component {
     console.log(Object.entries(this.state.counters));
     return (
       <div className="home_contain">
+        
       {Object.entries(this.state.counters).map(([key,object]) =>
           <Counter 
             key={key}
@@ -62,7 +63,10 @@ export default class Home extends Component {
             handleDecrease={this.handleDecrease}
           />
       )} 
-      
+      tootal: {Object.values(this.state.counters).reduce(
+          (acc, cur) => acc + cur.value,
+          0
+        )}
 
       </div>
       
