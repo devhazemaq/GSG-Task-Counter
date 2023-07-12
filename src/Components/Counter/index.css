@@ -1,29 +1,50 @@
-.btn__counter {
-  padding: 10px;
-  font-size: 28px;
-  width: 50px;
-  height: 50px;
-  border-radius: 5px;
+.main__counter {
+  position: relative;
+  left: 50%;
+  top: 41%;
+  transform: translate(-50px, -50px);
+}
+
+.counter__ele {
+  width: fit-content;
+  margin-left: 50px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  border: rgb(95, 95, 95) 2px solid;
+  flex-direction: row;
+  gap: 15px;
+  margin: 10px 0;
 }
 
-
-
-.btn__increment {
-  background-color: greenyellow;
-  
+.counter__ele .span__show {
+  display: inline-block;
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  padding-top: 8px;
+  background-color: rgb(222, 240, 255);
+  border-radius: 4px;
+  transition: background-color 1.5s;
 }
 
-.btn__decrement {
-  background-color: mediumvioletred;
-
+.counter__ele .span__show:hover {
+  background-color: #FF9800;
+  color: white;
 }
 
-.btn__increment,
-.btn__decrement {
-  border: none;
+.counter__ele button {
+  width: 50px;
+  height: 40px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 4px;
+  transition: background-color 1.5s;
+}
+
+.counter__ele .btn__dec:hover {
+  background-color: red;
+  color: white;
+}
+.counter__ele .btn__inc:hover {
+  background-color: green;
   color: white;
 }

@@ -1,26 +1,7 @@
 .home_contain {
   width: 100%;
   height: 100vh;
-
-}
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-.home_contain{
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-}
-
-.home_contain * {
-  display: flex;
-  gap: 20px;
+  position: relative;
+  overflow: hidden;
+  background-color: #333;
 }
